@@ -1,13 +1,12 @@
 "use client";
-
-import Image from "next/image";
-import styles from "./page.module.css";
 import BabylonCanvas from "@/components/BabylonCanvas";
+import OceanCanvas from "@/components/OceanCanvas";
 
 export default function Home() {
   return (
     <>
-    <BabylonCanvas/>
+    {/* <BabylonCanvas/> */}
+    <OceanCanvas/>
     </>
   );
 }
